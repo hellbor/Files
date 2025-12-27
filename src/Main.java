@@ -13,6 +13,6 @@ public class Main {
 
         Path path2 = Paths.get("simple.txt");
         List<String> list2 = Arrays.asList("Java — строго типизированный объектно‑ориентированный язык программирования общего назначения.");
-        Files.write(path2,list2, StandardOpenOption.CREATE, StandardOpenOption.CREATE);
+        Files.write(path2,list2, StandardOpenOption.APPEND, StandardOpenOption.CREATE);
     }
 }
